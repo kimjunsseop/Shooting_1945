@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.4f1 (fdd3b8998ec4) revision 16634808'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-01-21T05:10:35.3281729Z"
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 32479 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-01-21T05:10:35Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-01-21T05:23:42.8199856Z"
+Date: 2026-01-21T05:23:42Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/USER/jskim/Shooting_1945/1945
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65396
+49250
 -job-worker-count
 7
 -background-job-worker-count
@@ -65,12 +65,12 @@ C:/Users/USER/jskim/Shooting_1945/1945
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [13228]  Target information:
+Player connection [23792]  Target information:
 
-Player connection [13228]  * "[IP] 192.168.0.118 [Port] 0 [Flags] 2 [Guid] 3242577529 [EditorId] 3242577529 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IKU626D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23792]  * "[IP] 192.168.0.118 [Port] 0 [Flags] 2 [Guid] 3001613802 [EditorId] 3001613802 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IKU626D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13228] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13228] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23792] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23792] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,7 +82,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.60 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.4f1 (fdd3b8998ec4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -98,21 +98,21 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              3b161a28a1cc428eb1099b95da1aeb5c
+  Session Id:              91c74ae65fd4444abc9ad198b06376c7
   Correlation Id:          feb74b1faa11ae8b278b55fec4758842
-  External correlation Id: 3188889837108640995
+  External correlation Id: 2158398328489662328
   Machine Id:              NEBYXed6ooXt2k4BA+9+4sRv76w=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.00s, handshake: 1.06s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-01-21T05:10:36.3904863Z"
-[Licensing::Module] Licensing Background thread has ended after 1.06s
-[Licensing::Module] Licensing is initialized (took 0.35s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.00s, handshake: 1.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-01-21T05:23:43.8457437Z"
+[Licensing::Module] Licensing Background thread has ended after 1.03s
+[Licensing::Module] Licensing is initialized (took 0.33s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 14569433842907-UnityPersXXXX
@@ -123,14 +123,12 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.4f1/E
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.360581 seconds.
-- Loaded All Assemblies, in  0.935 seconds
+Registered in 0.334078 seconds.
+- Loaded All Assemblies, in  0.856 seconds
 Native extension for LinuxStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 256 ms
+Android Extension - Scanning For ADB Devices 238 ms
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -138,35 +136,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.829 seconds
-Domain Reload Profiling: 1759ms
-	BeginReloadAssembly (173ms)
+- Finished resetting the current domain, in  0.732 seconds
+Domain Reload Profiling: 1583ms
+	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (420ms)
-	LoadAllAssembliesAndSetupDomain (263ms)
-		LoadAssemblies (169ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (395ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (157ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (257ms)
-			TypeCache.Refresh (254ms)
-				TypeCache.ScanAssembly (233ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (233ms)
+				TypeCache.ScanAssembly (218ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (829ms)
+	FinalizeReload (732ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (763ms)
+		SetupLoadedEditorAssemblies (683ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (421ms)
+			InitializePlatformSupportModulesInManaged (376ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (154ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -176,8 +174,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.032 seconds
-Refreshing native plugins compatible for Editor in 2.61 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.799 seconds
+Refreshing native plugins compatible for Editor in 2.52 ms, found 4 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -187,52 +185,746 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.862 seconds
-Domain Reload Profiling: 1886ms
-	BeginReloadAssembly (261ms)
+- Finished resetting the current domain, in  0.730 seconds
+Domain Reload Profiling: 1523ms
+	BeginReloadAssembly (221ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (637ms)
-		LoadAssemblies (501ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (401ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (285ms)
-			TypeCache.Refresh (212ms)
-				TypeCache.ScanAssembly (190ms)
-			BuildScriptInfoCaches (61ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (863ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (139ms)
+			BuildScriptInfoCaches (37ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (731ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (705ms)
+		SetupLoadedEditorAssemblies (583ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
+			InitializePlatformSupportModulesInManaged (24ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (163ms)
-			ProcessInitializeOnLoadAttributes (421ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5014 unused Assets / (1.3 MB). Loaded Objects now: 5617.
-Memory consumption went from 101.0 MB to 99.7 MB.
-Total: 7.378600 ms (FindLiveObjects: 0.522700 ms CreateObjectMapping: 0.404300 ms MarkObjects: 5.204000 ms  DeleteObjects: 1.246500 ms)
+Unloading 5014 unused Assets / (1.1 MB). Loaded Objects now: 5617.
+Memory consumption went from 101.0 MB to 99.9 MB.
+Total: 8.068200 ms (FindLiveObjects: 0.504300 ms CreateObjectMapping: 0.401000 ms MarkObjects: 5.853000 ms  DeleteObjects: 1.308900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 184899.271230 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(3590b91b4603b465dbb4216d601bff33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(3590b91b4603b465dbb4216d601bff33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17501a68b6664c3fe1f1d492ba45a2db') in 0.2339633 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+  Time since last request: 185724.815447 seconds.
+  path: Assets/Scenes/Images
+  artifactKey: Guid(a0e1bcc6e9fd1f2428e0fddc56eebbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Images using Guid(a0e1bcc6e9fd1f2428e0fddc56eebbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dc140ab11f912906cc1c7b2ce1788ec') in 0.0049177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.955694 seconds.
+  path: Assets/Scenes/Images
+  artifactKey: Guid(a0e1bcc6e9fd1f2428e0fddc56eebbd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Images using Guid(a0e1bcc6e9fd1f2428e0fddc56eebbd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7b94aba06821d349a551478e9fe39bc') in 0.0506771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.928130 seconds.
+  path: Assets/Images
+  artifactKey: Guid(1d9ce4f911d4fcf418c7a22647c2dcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images using Guid(1d9ce4f911d4fcf418c7a22647c2dcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed32d5342c706cece7986ee76ee36a9b') in 0.0004981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.964452 seconds.
+  path: Assets/Images
+  artifactKey: Guid(1d9ce4f911d4fcf418c7a22647c2dcdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images using Guid(1d9ce4f911d4fcf418c7a22647c2dcdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '253a8ee6ea32df916d39f87679f58c38') in 0.017097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.187796 seconds.
+  path: Assets/Images/Sound/Monster1.wav
+  artifactKey: Guid(2fcd0f66a8406ed4ca7866136a931b72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sound/Monster1.wav using Guid(2fcd0f66a8406ed4ca7866136a931b72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5df29f3e6f48db0f512314699dee1aac') in 0.1075426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Images/Stage/Item
+  artifactKey: Guid(45174ae030179dc41b2315eee47a8a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Item using Guid(45174ae030179dc41b2315eee47a8a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97b937c20dc684a130f602e5cda1316f') in 0.0128323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Images/Stage/Monster/BossBoat_Posin4.bmp
+  artifactKey: Guid(0afb050c1fbb2b04da32c37960fae28e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/BossBoat_Posin4.bmp using Guid(0afb050c1fbb2b04da32c37960fae28e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '38247417a71d94629dd712e69d4f0e31') in 0.0832886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/Stage/Bullet/BMBullet_Straight.bmp
+  artifactKey: Guid(9c3218055c6dfd849ac79a9e0a4dd23d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/BMBullet_Straight.bmp using Guid(9c3218055c6dfd849ac79a9e0a4dd23d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9e99396dbf564f3785fba4592d2c0cb') in 0.0228576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Images/Sound/Bomb.wav
+  artifactKey: Guid(890de4aa2dc3a654a95538e0b2b43478) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sound/Bomb.wav using Guid(890de4aa2dc3a654a95538e0b2b43478) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa53c14792260e9d53bbd5fcd664a9ed') in 0.0290204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Stage/Monster/Boat_Posin4.bmp
+  artifactKey: Guid(d4d5934c57070524b8c3f7e461614336) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/Boat_Posin4.bmp using Guid(d4d5934c57070524b8c3f7e461614336) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97a689a75187455136c5abf670238877') in 0.0251864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Stage/Bullet
+  artifactKey: Guid(84b32b73189c2744994a58f62c41c3ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet using Guid(84b32b73189c2744994a58f62c41c3ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58e449f6094ef7a5e27d1e88ea474c9c') in 0.0151827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Images/Stage/Monster/Boat_Posin5.bmp
+  artifactKey: Guid(33ecc6d009e82a8449085b54f8cfe599) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/Boat_Posin5.bmp using Guid(33ecc6d009e82a8449085b54f8cfe599) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ba2f3a7d0e393039581c0b6c15e3328') in 0.0209175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Images/Stage/Player
+  artifactKey: Guid(46e4b5e7babab9847b31ec594dae5c50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Player using Guid(46e4b5e7babab9847b31ec594dae5c50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1c6c99e59d70d96f4e49c8589e1039c') in 0.0158055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Images/Stage/UI/StageLogo.bmp
+  artifactKey: Guid(c12bebede491f7c42a706f0b9da4b503) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/UI/StageLogo.bmp using Guid(c12bebede491f7c42a706f0b9da4b503) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3333079794452f7f13def32c8864edab') in 0.0225053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Images/Stage/Effect/Effect_4.BMP
+  artifactKey: Guid(2a894020c2a6e1840ad5d234e7273a20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Effect/Effect_4.BMP using Guid(2a894020c2a6e1840ad5d234e7273a20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07494ad291d33cac5962e432c4084d05') in 0.0233165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Stage/Monster/Monster_5_left.bmp
+  artifactKey: Guid(d8bb78c78ee2e694cb6b6f328b956e38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/Monster_5_left.bmp using Guid(d8bb78c78ee2e694cb6b6f328b956e38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'defa4e63c9b270634404e600329047d8') in 0.021968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/Stage/Effect
+  artifactKey: Guid(e7b3c8c94877c8d42ad97e87dbf474cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Effect using Guid(e7b3c8c94877c8d42ad97e87dbf474cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35f1d40c5ee85cf466b7ed7243a6ff9e') in 0.0129277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/Stage/Bullet/Stage2_Bullet.bmp
+  artifactKey: Guid(5cb6f58419a781041b99965965995383) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/Stage2_Bullet.bmp using Guid(5cb6f58419a781041b99965965995383) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fadc3f66cbdd5ef7791316e295731ab3') in 0.0220754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Images/Sound/Item.wav
+  artifactKey: Guid(c522b8465374fb14c971cb2e0ee43e28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sound/Item.wav using Guid(c522b8465374fb14c971cb2e0ee43e28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e3b12cd0623513b12d4151d9c79eb62') in 0.0275146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Images/Stage/Player/Move_TB_A.bmp
+  artifactKey: Guid(d6278c28cd4bbc344b741bcddf35c21a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Player/Move_TB_A.bmp using Guid(d6278c28cd4bbc344b741bcddf35c21a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1faefd259671f4ca916cc62733a969c9') in 0.0236035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/Stage/Monster/BigAirPlan.bmp
+  artifactKey: Guid(b7eed79cbb9a3334a8e852125358ed3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/BigAirPlan.bmp using Guid(b7eed79cbb9a3334a8e852125358ed3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e0cffb0dc57c3eb5f90171fc9f1096c') in 0.0326765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Stage/Bullet/Bullet_Mob_A.bmp
+  artifactKey: Guid(be6a87f92b669d74f864074da42753ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/Bullet_Mob_A.bmp using Guid(be6a87f92b669d74f864074da42753ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b3d7ef31772040ce1d66bf416d85467') in 0.0226547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/Stage/Bomb/Bomb_Bullet4.bmp
+  artifactKey: Guid(b4739b7eb9ecd3a45abd0327d3caaaa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bomb/Bomb_Bullet4.bmp using Guid(b4739b7eb9ecd3a45abd0327d3caaaa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd2e83d13803210aaa4b69cef124de863') in 0.0231922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Images/Stage/Monster/BossBoat.bmp
+  artifactKey: Guid(b34b4d041e1f1b145a8ad038fd4c533b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/BossBoat.bmp using Guid(b34b4d041e1f1b145a8ad038fd4c533b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eeffd8b341827af70e15a30489dcdf72') in 0.0325331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/Stage/UI/Energy_bar5.bmp
+  artifactKey: Guid(78ba638661592324a84a1d79dc59d583) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/UI/Energy_bar5.bmp using Guid(78ba638661592324a84a1d79dc59d583) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b36c7620c1afaf7236807e5c6f016319') in 0.0227199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Images/Stage/Bullet/MGuide_Bullet.bmp
+  artifactKey: Guid(942d9eb77f3d4de44affc9ffcd76ad31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/MGuide_Bullet.bmp using Guid(942d9eb77f3d4de44affc9ffcd76ad31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '479d74bdb0dcb36b5d076105c60e4481') in 0.0209521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Stage/Bullet/Magic_Elec2 - 복사본.bmp
+  artifactKey: Guid(f43ea56fef1722d4a91387c3133165d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/Magic_Elec2 - 복사본.bmp using Guid(f43ea56fef1722d4a91387c3133165d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbf5fd8a4b19c91abfcf0ac5dd966b02') in 0.0236769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/Stage/UI/Energy_bar3.bmp
+  artifactKey: Guid(be76bbfd2d2eedb45aed302cc159e6d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/UI/Energy_bar3.bmp using Guid(be76bbfd2d2eedb45aed302cc159e6d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '269730818cc5dfd2848071432c588b71') in 0.0218416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/Stage/Bomb/Bomb_Bullet2.bmp
+  artifactKey: Guid(2ebb11df8dbedfb4691535af76934109) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bomb/Bomb_Bullet2.bmp using Guid(2ebb11df8dbedfb4691535af76934109) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3dcc06154437ec4e8ad2a87a89a0ed9f') in 0.0316023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/Stage/Monster/Boss_change.bmp
+  artifactKey: Guid(9e88c98d87fd2644697a939af320dfee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/Boss_change.bmp using Guid(9e88c98d87fd2644697a939af320dfee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd40cf4f01b38c575ac9bfc29777a5e93') in 0.0279344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/Stage/Monster/fish2.bmp
+  artifactKey: Guid(1f819d49578f8cd4da1e00b2416f5b8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/fish2.bmp using Guid(1f819d49578f8cd4da1e00b2416f5b8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '01be798e4fd628dada4c003551b4b34d') in 0.0225365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Stage/Monster/air_Monster9.BMP
+  artifactKey: Guid(197fcde1ed13a0e4d82ec33cb32c29b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/air_Monster9.BMP using Guid(197fcde1ed13a0e4d82ec33cb32c29b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '416935488d369d2453426e2611946ad4') in 0.0204973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/Stage/Player/Helper - 복사본.bmp
+  artifactKey: Guid(02fa614d1705da64cb4927ffb63ab7be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Player/Helper - 복사본.bmp using Guid(02fa614d1705da64cb4927ffb63ab7be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '918f102ca201853ac0b9efcbde5f6b81') in 0.0228859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/Stage/Effect/test.bmp
+  artifactKey: Guid(07bd085edcf64b44cb94e3f0c7407c62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Effect/test.bmp using Guid(07bd085edcf64b44cb94e3f0c7407c62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aee816cc28f9b22f97a96585d0973e07') in 0.0310928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Images/Stage/Monster/Boss_change2.bmp
+  artifactKey: Guid(80fa28331dcbe284e865c53d11acdf2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/Boss_change2.bmp using Guid(80fa28331dcbe284e865c53d11acdf2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e3edccb7b07a472402b18331dc96f07') in 0.0249743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Images/Stage/logo/character.bmp
+  artifactKey: Guid(c4e73b50376f4f848a863a02f6ed0eec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/logo/character.bmp using Guid(c4e73b50376f4f848a863a02f6ed0eec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c685db44f33a95ee1aa1f6a9d0f9b35') in 0.022795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Stage/StageBack/Stage_2.bmp
+  artifactKey: Guid(7fa79881994b1d84187696eb99ecbc79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/StageBack/Stage_2.bmp using Guid(7fa79881994b1d84187696eb99ecbc79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f52f40fb062b6cb2dbe10d0b276b68f') in 0.0269467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/Stage/Monster
+  artifactKey: Guid(5fc0ec8612a277946bf9cde9fb39be9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster using Guid(5fc0ec8612a277946bf9cde9fb39be9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33c31f0ad08ec50be000f4a3738a7695') in 0.0138185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Stage/Bullet/Magic_Elec2.bmp
+  artifactKey: Guid(df89a7a66cea6e048b99b9f136a890df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/Magic_Elec2.bmp using Guid(df89a7a66cea6e048b99b9f136a890df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9133eaf5db1d2316efd951cb5f63bc0') in 0.0208974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/Stage/Effect/Effect_Crash.bmp
+  artifactKey: Guid(bb75e825df7d6fe4ea052d1fd09e4275) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Effect/Effect_Crash.bmp using Guid(bb75e825df7d6fe4ea052d1fd09e4275) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e25a9c26c78b87d71b2ac0a04de4d9b') in 0.0231112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/Stage/Bullet/Bullet_Mob_D.bmp
+  artifactKey: Guid(2937f9c777423b1448a1848117376f07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/Bullet_Mob_D.bmp using Guid(2937f9c777423b1448a1848117376f07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9054d2fc9a2e84a4babe39e90266732') in 0.0206694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Stage/Bullet/Special_Bullet.bmp
+  artifactKey: Guid(90db93d8a352e6944af1fcb3ddd1f825) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/Special_Bullet.bmp using Guid(90db93d8a352e6944af1fcb3ddd1f825) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '195e0d5e8e25f1341cee346d989c0fea') in 0.0216432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Stage/Bullet/LMBullet_Straight.bmp
+  artifactKey: Guid(5d73a3114cf6ed148bb73a5aacab6f04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/LMBullet_Straight.bmp using Guid(5d73a3114cf6ed148bb73a5aacab6f04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3cc1ff3d512f699f784e8b410c2bbdd1') in 0.020234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/Stage/Monster/Boat_Posin1.bmp
+  artifactKey: Guid(3f21c895bb87b1a4ea6d7947f4417eb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/Boat_Posin1.bmp using Guid(3f21c895bb87b1a4ea6d7947f4417eb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b970f212d72d251764c4b32d41a1fa8') in 0.0246364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/Stage/UI/Energy_bar2.bmp
+  artifactKey: Guid(0deb2bfd25b60f842859dd4a48267279) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/UI/Energy_bar2.bmp using Guid(0deb2bfd25b60f842859dd4a48267279) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a06cabff39d19cbdd31917aef68bbf5b') in 0.0187312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/Stage/Monster/Boat_Posin3.bmp
+  artifactKey: Guid(95bfa525ba768164598e01fb486143a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/Boat_Posin3.bmp using Guid(95bfa525ba768164598e01fb486143a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e028c03314e9653740b2b59a42ae77b') in 0.0202986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/Stage/Item/Item_Power.bmp
+  artifactKey: Guid(5feea153545d0594d8ca2d7af9ae2fc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Item/Item_Power.bmp using Guid(5feea153545d0594d8ca2d7af9ae2fc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21ee9a7d6f71ff8b4fcae15c7af3be6c') in 0.018557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Stage/Monster/MidAirPlan.bmp
+  artifactKey: Guid(ecc01f76fa1ad8645ac6c8d06898b6c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/MidAirPlan.bmp using Guid(ecc01f76fa1ad8645ac6c8d06898b6c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea139b5c4632e0cd928252d497d25cec') in 0.0245229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Sound
+  artifactKey: Guid(21fcf6b21b4fabb4c9db05feb98d7893) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sound using Guid(21fcf6b21b4fabb4c9db05feb98d7893) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c543ab6b39c92c6df75674459c52278a') in 0.0137387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Images/Stage/Bullet/fire_lazer.bmp
+  artifactKey: Guid(38d3dd64e4123e64eb31b4b365124861) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/fire_lazer.bmp using Guid(38d3dd64e4123e64eb31b4b365124861) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '281a6d646996e95874d04792ff6b6c2a') in 0.024051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Stage/Bomb
+  artifactKey: Guid(8986a7bffa06e69428299f1b8fb378f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bomb using Guid(8986a7bffa06e69428299f1b8fb378f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '646e9cc072d5271b6b40bca614d72bf3') in 0.0152529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Images/Stage/Player/Player_up - 복사본.bmp
+  artifactKey: Guid(b870868094220c6468bb89b85b1ee246) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Player/Player_up - 복사본.bmp using Guid(b870868094220c6468bb89b85b1ee246) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7cf8d298d67fb5a765977301565221f3') in 0.0261721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Stage/Score/Score.bmp
+  artifactKey: Guid(246469f4ffe14774b9b904fcfda8496e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Score/Score.bmp using Guid(246469f4ffe14774b9b904fcfda8496e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3d1415c22b66ecc69b0971a045d8201') in 0.0243836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/Sound/Loading.wav
+  artifactKey: Guid(1b1d353ea4e7c084f885f4d215130567) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sound/Loading.wav using Guid(1b1d353ea4e7c084f885f4d215130567) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '170315733003bc65e2a4d9c78918a4f7') in 0.0308395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/Stage/Monster/BigAirPlan - 복사본.bmp
+  artifactKey: Guid(ac369dcd1dec9cd43947430bc4d3dbfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/BigAirPlan - 복사본.bmp using Guid(ac369dcd1dec9cd43947430bc4d3dbfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d7ce59235ec560ac8324b853367d075') in 0.0226681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Images/Stage/Monster/Monster_5.bmp
+  artifactKey: Guid(08d8280cd86b4e0458751a575c435d45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/Monster_5.bmp using Guid(08d8280cd86b4e0458751a575c435d45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f04aeefd82d8a21988cddb7b96320773') in 0.0213375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Stage/Monster/Monster_3.bmp
+  artifactKey: Guid(88a4311b3fc68874fa74d09acd66b4ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/Monster_3.bmp using Guid(88a4311b3fc68874fa74d09acd66b4ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6e57f5a030c5aca58cffac270395689') in 0.0223569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/Stage/Player/Player_right.bmp
+  artifactKey: Guid(773cdbe13de43c346a9f49b9ef693005) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Player/Player_right.bmp using Guid(773cdbe13de43c346a9f49b9ef693005) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a65d7e50aaf17a8156c29da0886ba807') in 0.0230897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Images/Stage/Effect/Effect_3.bmp
+  artifactKey: Guid(1168464746404794db0e7406c142494c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Effect/Effect_3.bmp using Guid(1168464746404794db0e7406c142494c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dea3b92e5c8c78a42c959b8c4088a2bd') in 0.0184192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/Stage/logo
+  artifactKey: Guid(d1fa9ccd02829044d992efec4fe6e2a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/logo using Guid(d1fa9ccd02829044d992efec4fe6e2a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ffc8002af5b5157d2fe2522d73c35ae') in 0.0166393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/Stage/Bullet/MBasic_Bullet.bmp
+  artifactKey: Guid(14eb6607005142f468de8c95276231e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/MBasic_Bullet.bmp using Guid(14eb6607005142f468de8c95276231e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51904ce49e7ebb24121fc3ee8e2abba0') in 0.019282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Stage/Monster/BossBoat_Posin3.bmp
+  artifactKey: Guid(603bda8c84c13034394da410343963df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/BossBoat_Posin3.bmp using Guid(603bda8c84c13034394da410343963df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4bc07ca38c51725786733a98710be5e') in 0.0205882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Images/Stage/Bullet/BossBullet.bmp
+  artifactKey: Guid(cca50d7ed418d2e4aa307b6c56ae70be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/BossBullet.bmp using Guid(cca50d7ed418d2e4aa307b6c56ae70be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb51bc01672a43aa322efb3623869330') in 0.0213775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/Stage/Bullet/Magic_Elec3.bmp
+  artifactKey: Guid(9dc7671db2c6b8c43871f9b5dbf39ab9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/Magic_Elec3.bmp using Guid(9dc7671db2c6b8c43871f9b5dbf39ab9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c27b79f6909ad2fe53c58f788ef86467') in 0.01786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Stage/Bullet/Bullet_Eg_b.bmp
+  artifactKey: Guid(5ea1e6126fede58418a537a587de5699) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/Bullet_Eg_b.bmp using Guid(5ea1e6126fede58418a537a587de5699) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8c40c6bbe628d119b6269bc771d409c') in 0.0207006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Images/Stage/StageBack/Stage_1.bmp
+  artifactKey: Guid(477785bac3fdf0e4ebea0dd048010415) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/StageBack/Stage_1.bmp using Guid(477785bac3fdf0e4ebea0dd048010415) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1b580bc1dad0d040277ae6cbf5e14ce') in 0.0219194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Images/Stage/Bullet/lazer_body.bmp
+  artifactKey: Guid(1a16a8c489d098d4f99d05c07a5be513) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/lazer_body.bmp using Guid(1a16a8c489d098d4f99d05c07a5be513) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5b525d8dcffb69ea166b727a9d6074d') in 0.0177621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Images/Stage/Monster/BossBoat_Posin5.bmp
+  artifactKey: Guid(7b2e47404fb537246bd4e5e291f540bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/BossBoat_Posin5.bmp using Guid(7b2e47404fb537246bd4e5e291f540bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8675c6a5991ba506556fbfec46a292b0') in 0.0194574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/Stage/logo/character - 복사본 - 복사본.bmp
+  artifactKey: Guid(1a59d7c8f9c843b4c89d829805326296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/logo/character - 복사본 - 복사본.bmp using Guid(1a59d7c8f9c843b4c89d829805326296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5fb07ccc5fb10a1e723b6820e09e38d') in 0.0278648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Stage/Effect/Effect_Power.bmp
+  artifactKey: Guid(c2cdcdab14dffd445a0f193bb9a47919) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Effect/Effect_Power.bmp using Guid(c2cdcdab14dffd445a0f193bb9a47919) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11d73f6ef158021fdcafd8bfc94b8004') in 0.0155934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/Stage/Effect/Effect_7 - 복사본.bmp
+  artifactKey: Guid(d15235f118ce59e4789a19dac1bc977e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Effect/Effect_7 - 복사본.bmp using Guid(d15235f118ce59e4789a19dac1bc977e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5756049075aa218dcabc34114c8903b') in 0.0223981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Stage/UI/PowerDown.bmp
+  artifactKey: Guid(8c652ae9de0c9df4f813f30db43fe23e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/UI/PowerDown.bmp using Guid(8c652ae9de0c9df4f813f30db43fe23e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1b73761f4d5700744afd05ba83590d7') in 0.0227959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Stage/Bullet/Bullet_Explo.bmp
+  artifactKey: Guid(b819670820fdf0b4ab10c29922c3037b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/Bullet_Explo.bmp using Guid(b819670820fdf0b4ab10c29922c3037b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd425f7f5ccbeca644fa2e86242062fc2') in 0.024313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/Stage/Player/Player_up.bmp
+  artifactKey: Guid(fe67ee0fe810d17498d38edeb027aa53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Player/Player_up.bmp using Guid(fe67ee0fe810d17498d38edeb027aa53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'decbabd8aead85456b4d14beefb1c67b') in 0.019766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/Stage/Player/Effect_7.bmp
+  artifactKey: Guid(bdc134d95fa75a048b093c8865c968ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Player/Effect_7.bmp using Guid(bdc134d95fa75a048b093c8865c968ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b13b931de647abcc06b667893f95d3b2') in 0.0214761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/Stage/Monster/air_Monster5.BMP
+  artifactKey: Guid(2ff426a8e286a3240bb4624ce6ad29d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/air_Monster5.BMP using Guid(2ff426a8e286a3240bb4624ce6ad29d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ef73475a34abd47ebea666cbc11fa42') in 0.0203205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Images/Stage/UI/Energy - 복사본.bmp
+  artifactKey: Guid(ae6ccbe018d5da84f9d2fb9f373c3d2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/UI/Energy - 복사본.bmp using Guid(ae6ccbe018d5da84f9d2fb9f373c3d2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c05245966ccc2a2fa62a8054476ef1d1') in 0.0231703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Images/Stage/Score
+  artifactKey: Guid(989d5bfa4a2df1047a8cc7d226867cec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Score using Guid(989d5bfa4a2df1047a8cc7d226867cec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c36022ff2553354946f1e7a58b35a5d3') in 0.0148788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Images/Stage/Bullet/MBasic_Bullet2 - 복사본 (2).bmp
+  artifactKey: Guid(99a049266793fcd4ead9f6c73e18fedb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/MBasic_Bullet2 - 복사본 (2).bmp using Guid(99a049266793fcd4ead9f6c73e18fedb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa0ce87c2d6be2c5ecfd49a1fbd3abb9') in 0.0261332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Images/Stage/Monster/air_Monster8.BMP
+  artifactKey: Guid(e3d5755ee08bc8b42a07ad108b27519d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/air_Monster8.BMP using Guid(e3d5755ee08bc8b42a07ad108b27519d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a28b9c2f0ef2a7dc9a35cf5b5b7a836') in 0.0222012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Images/Stage/Bullet/MBasic_Bullet2 - 복사본.bmp
+  artifactKey: Guid(e788a5042784a3047979f1c0e499060a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/MBasic_Bullet2 - 복사본.bmp using Guid(e788a5042784a3047979f1c0e499060a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95e4867ce8dcc8840d643c0061437340') in 0.0224569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/Stage/Monster/air_Monster7.BMP
+  artifactKey: Guid(582cf7e418c07634c8fa86734f1dd7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/air_Monster7.BMP using Guid(582cf7e418c07634c8fa86734f1dd7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b02c04b1d25da4b9c702d1141143282') in 0.0219856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Stage/Effect/Effect_Boss.bmp
+  artifactKey: Guid(f14effda1c180014cbdbad3edb2e7f73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Effect/Effect_Boss.bmp using Guid(f14effda1c180014cbdbad3edb2e7f73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd79bca891ccf6cfd2ae2690b6a8e791e') in 0.0204645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Stage/Monster/Boat_Delete.bmp
+  artifactKey: Guid(c88d8bc94d15e3d468f8f94c7950ddfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Monster/Boat_Delete.bmp using Guid(c88d8bc94d15e3d468f8f94c7950ddfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c75df8a19895b451d6d36ad62d7dd0d') in 0.0231808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/Stage/Bullet/Player_Bullet_Screw.bmp
+  artifactKey: Guid(7ab01145c6a04324f9bac8aa83a05072) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/Bullet/Player_Bullet_Screw.bmp using Guid(7ab01145c6a04324f9bac8aa83a05072) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac5859ec9516712731908e298b2d4741') in 0.0255762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Stage/UI/Energy_bar4.bmp
+  artifactKey: Guid(48eec49c0c6c0bf4281fcd07a1a1e67e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/UI/Energy_bar4.bmp using Guid(48eec49c0c6c0bf4281fcd07a1a1e67e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b918e8e84b484cf175d169501dc21cab') in 0.0257891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Images/Stage/UI/PowerUp.bmp
+  artifactKey: Guid(73951d0e4d11b7d49bc5f2861b6b0884) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Stage/UI/PowerUp.bmp using Guid(73951d0e4d11b7d49bc5f2861b6b0884) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df5854152cd04320869d29f531f5e618') in 0.0223044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
