@@ -3,11 +3,12 @@ using UnityEngine;
 public class PBullet : MonoBehaviour
 {
 
-    private float Speed {get;set;}
+    [field:SerializeField] private float Speed {get;set;}
+    [field:SerializeField] public int damage {get;set;}
 
     void Start()
     {
-        Speed = 5f;
+
     }
     void Update()
     {
@@ -23,8 +24,10 @@ public class PBullet : MonoBehaviour
     {
         if(collision.CompareTag("Monster"))
         {
-            Monster mon = collision.gameObject.GetComponent<Monster>();
-            mon.Damege(1);
+            //Monster mon = collision.gameObject.GetComponent<Monster>();
+            //mon.Damege(1);
+            //collision.gameObject.GetComponent<Monster>().Damege(1);
+            collision.GetComponent<Monster>().Damege(damage);
             Destroy(gameObject);
 
         }

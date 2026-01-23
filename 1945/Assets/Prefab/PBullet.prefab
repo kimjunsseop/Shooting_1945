@@ -106,6 +106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f52e94a1673ead548a6479ab7fb00016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PBullet
+  <Speed>k__BackingField: 5
+  <damage>k__BackingField: 3
 --- !u!50 &6345380101523190543
 Rigidbody2D:
   serializedVersion: 5

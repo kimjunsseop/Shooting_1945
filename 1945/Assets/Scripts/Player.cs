@@ -1,15 +1,20 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     Animator animator;
-    private float moveSpeed {get;set;}
-    public GameObject bullet;
+    [field:SerializeField] private float moveSpeed {get;set;}
+    [field:SerializeField] private int power {get;set;}
+    public List<GameObject> bullets;
     public Transform pos = null;
+    public GameObject powerUp;
+    public GameObject bomb;
     void Start()
     {
         moveSpeed = 5f;
-        animator = GetComponent<Animator>();   
+        animator = GetComponent<Animator>();  
+        power = 0; 
     }
 
     
@@ -22,7 +27,12 @@ public class Player : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(bullet, pos.position, Quaternion.identity);
+            Instantiate(bullets[power], pos.position, Quaternion.identity);
+        }
+        if(Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            GameObject go = Instantiate(bomb, new Vector3(0,0,0), Quaternion.identity);
+            Destroy(go, 3f);
         }
 
         transform.Translate(new Vector3(h,v,0).normalized * moveSpeed * Time.deltaTime);
@@ -66,6 +76,18 @@ public class Player : MonoBehaviour
             animator.SetBool("up", false);
         }
     }
-
-    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Item"))
+        {
+            power += 1;
+            if(power >= 3)
+            {
+                power = 3;
+            }
+            GameObject go = Instantiate(powerUp, transform.position, Quaternion.identity);
+            Destroy(go, 0.7f);
+            Destroy(collision.gameObject);
+        }      
+    }
 }

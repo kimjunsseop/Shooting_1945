@@ -153,9 +153,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0395ad6851b511438ae28b4882c7d78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Monster
+  <Hp>k__BackingField: 15
+  <Speed>k__BackingField: 3
+  <Delay>k__BackingField: 2
   ms1: {fileID: 4586510768782138414}
   ms2: {fileID: 8949676727905329685}
   bullet: {fileID: 4281546900866507961, guid: 5872b10299554504f9784927cb2c312a, type: 3}
+  item: {fileID: 4884762692879669494, guid: c5d7a91ac1122c84096579a9f16ab0af, type: 3}
+  effect: {fileID: 4892117929720338274, guid: a600b042de4d56946a11aef8e8f17e12, type: 3}
 --- !u!1 &6076823240551370028
 GameObject:
   m_ObjectHideFlags: 0

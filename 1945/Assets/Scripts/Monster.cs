@@ -1,18 +1,21 @@
+using System;
 using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
-    public int Hp {get;set;}
-    public float Speed {get;set;}
-    public float Delay {get;set;}
+    
+    [field:SerializeField] public int Hp {get;set;}
+    [field:SerializeField] public float Speed {get;set;}
+    [field:SerializeField] public float Delay {get;set;}
     public Transform ms1;
     public Transform ms2;
     public GameObject bullet;
+    [field:SerializeField]
+    private GameObject item;
+    [field:SerializeField]
+    private GameObject effect;
     void Start()
     {
-        Hp = 3;
-        Speed = 1f;
-        Delay = 0.5f;
         Invoke("CreateBullet", Delay);
     }
     void Update()
@@ -30,6 +33,12 @@ public class Monster : MonoBehaviour
         Hp -= attack;
         if(Hp <= 0)
         {
+            if(item != null)
+            {
+                Instantiate(item, transform.position, Quaternion.identity);   
+            }
+            GameObject go = Instantiate(effect, transform.position, Quaternion.identity);
+            Destroy(go, 1f);
             Destroy(gameObject);
         }
     }
