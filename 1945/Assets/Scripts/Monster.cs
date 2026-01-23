@@ -7,13 +7,12 @@ public class Monster : MonoBehaviour
     [field:SerializeField] public int Hp {get;set;}
     [field:SerializeField] public float Speed {get;set;}
     [field:SerializeField] public float Delay {get;set;}
+    [field:SerializeField] public int Score {get;set;}
     public Transform ms1;
     public Transform ms2;
     public GameObject bullet;
-    [field:SerializeField]
-    private GameObject item;
-    [field:SerializeField]
-    private GameObject effect;
+    [field:SerializeField] public GameObject item;
+    [field:SerializeField] public GameObject effect;
     void Start()
     {
         Invoke("CreateBullet", Delay);
@@ -22,7 +21,7 @@ public class Monster : MonoBehaviour
     {
         transform.Translate(Vector3.down * Speed * Time.deltaTime);
     }
-    void CreateBullet()
+    public virtual void CreateBullet()
     {
         Instantiate(bullet, ms1.position, Quaternion.identity);
         Instantiate(bullet, ms2.position, Quaternion.identity);
@@ -39,6 +38,7 @@ public class Monster : MonoBehaviour
             }
             GameObject go = Instantiate(effect, transform.position, Quaternion.identity);
             Destroy(go, 1f);
+            GameManager.instance.AddScore(Score);
             Destroy(gameObject);
         }
     }

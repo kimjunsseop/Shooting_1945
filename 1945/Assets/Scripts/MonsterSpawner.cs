@@ -3,10 +3,20 @@ using UnityEngine;
 
 public class MonsterSpawner : MonoBehaviour
 {
+    public static MonsterSpawner instance = null;
     public GameObject[] monsters;
     public int interval;
+    public GameObject boss;
+    void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this;
+        }
+    }
     void Start()
     {
+
         interval = 2;
         StartCoroutine(Spawn());
     }
@@ -34,5 +44,14 @@ public class MonsterSpawner : MonoBehaviour
             Instantiate(monsters[index], spawn, Quaternion.identity);
             yield return new WaitForSeconds(interval);
         }
+    }
+
+    public void BossSpawn()
+    {
+        if(boss != null)
+        {
+            Instantiate(boss, transform.position, Quaternion.identity);
+        }
+        Debug.Log("보스 생성");
     }
 }

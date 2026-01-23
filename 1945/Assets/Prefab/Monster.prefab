@@ -156,6 +156,7 @@ MonoBehaviour:
   <Hp>k__BackingField: 15
   <Speed>k__BackingField: 3
   <Delay>k__BackingField: 2
+  <Score>k__BackingField: 10
   ms1: {fileID: 4586510768782138414}
   ms2: {fileID: 8949676727905329685}
   bullet: {fileID: 4281546900866507961, guid: 5872b10299554504f9784927cb2c312a, type: 3}
