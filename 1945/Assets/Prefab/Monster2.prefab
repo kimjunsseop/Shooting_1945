@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3227520499432366721}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: lancher1
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1934420125769381930}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: laucher2
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 4242206315729716612}
   - component: {fileID: 441139285554834379}
   - component: {fileID: 840251864268196170}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Monster2
   m_TagString: Monster
   m_Icon: {fileID: 0}

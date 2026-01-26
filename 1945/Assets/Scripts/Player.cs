@@ -31,8 +31,7 @@ public class Player : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.LeftControl))
         {
-            GameObject go = Instantiate(bomb, new Vector3(0,0,0), Quaternion.identity);
-            Destroy(go, 3f);
+            Instantiate(bomb, new Vector3(0,0,0), Quaternion.identity);
         }
 
         transform.Translate(new Vector3(h,v,0).normalized * moveSpeed * Time.deltaTime);
@@ -89,5 +88,9 @@ public class Player : MonoBehaviour
             Destroy(go, 0.7f);
             Destroy(collision.gameObject);
         }      
+    }
+    public void TakeDamage(int damage)
+    {
+        Debug.Log($"{damage} 맞음");
     }
 }

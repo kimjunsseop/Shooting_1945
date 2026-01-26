@@ -21,10 +21,5 @@ public class GameManager : MonoBehaviour
     {
         sum += score;
         text.text = "Score : " + sum;
-
-        if(sum >= 0 && (sum % 100) == 0)
-        {
-            MonsterSpawner.instance.BossSpawn();
-        } 
     }
 }

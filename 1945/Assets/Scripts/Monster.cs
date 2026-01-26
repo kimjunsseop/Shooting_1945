@@ -20,6 +20,11 @@ public class Monster : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.down * Speed * Time.deltaTime);
+
+        if(transform.position.y < -5.5f)
+        {
+            Destroy(gameObject);
+        }
     }
     public virtual void CreateBullet()
     {
@@ -27,14 +32,18 @@ public class Monster : MonoBehaviour
         Instantiate(bullet, ms2.position, Quaternion.identity);
         Invoke("CreateBullet", Delay);
     }
-    public void Damege(int attack)
+    public virtual void Damege(int attack)
     {
         Hp -= attack;
         if(Hp <= 0)
         {
             if(item != null)
             {
-                Instantiate(item, transform.position, Quaternion.identity);   
+                int rand = UnityEngine.Random.Range(0,101);
+                if(rand <= 40)
+                {
+                    Instantiate(item, transform.position, Quaternion.identity);   
+                }   
             }
             GameObject go = Instantiate(effect, transform.position, Quaternion.identity);
             Destroy(go, 1f);
@@ -43,8 +52,5 @@ public class Monster : MonoBehaviour
         }
     }
 
-    void OnBecameInvisible()
-    {
-        Destroy(gameObject);
-    }
+
 }

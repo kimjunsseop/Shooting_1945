@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4248321121597527388}
   - component: {fileID: 3862820429195656193}
   - component: {fileID: 5458125114733882625}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Monster
   m_TagString: Monster
   m_Icon: {fileID: 0}
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0395ad6851b511438ae28b4882c7d78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Monster
-  <Hp>k__BackingField: 15
+  <Hp>k__BackingField: 10
   <Speed>k__BackingField: 3
   <Delay>k__BackingField: 2
   <Score>k__BackingField: 10
@@ -171,7 +171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8949676727905329685}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ms2
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -202,7 +202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4586510768782138414}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ms1
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
